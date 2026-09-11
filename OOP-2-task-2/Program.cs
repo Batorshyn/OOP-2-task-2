@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 Console.InputEncoding = System.Text.Encoding.UTF8;
 
-string pattern = @"\bп[^а-яa-zA-Zіієє0-9\s]*[оo][^а-яa-zA-Zіієє0-9\s]*[гg][^а-яa-zA-Zіієє0-9\s]*[аa][^а-яa-zA-Zіієє0-9\s]*[нh][а-яa-zA-Zіієє]*\b";
+string pattern =@"\b[пp][^а-яa-zA-Zіієєґґ\s]*[оo][^а-яa-zA-Zіієєґґ\s]*[гg][^а-яa-zA-Zіієєґґ\s]*[аa][^а-яa-zA-Zіієєґґ\s]*[нh][а-яa-zA-Zіієєґґ]*\b";
 
 while (true)
 {
